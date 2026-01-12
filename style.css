@@ -26,6 +26,10 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+.container-2 {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 .btn-primary {
     background-color: #FF900E;
     border: none;
@@ -86,3 +90,32 @@
 }
 /* Banner Section Ended */
 /* Header section Ended */
+/* Main Section */
+/* Team Section Started */
+.team-section {
+    margin-top: 100px;
+    align-items: center ;
+    gap: 50px;
+}
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-heading {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.team-span-1 {
+    font-weight: 500;
+}
+.team-span-2 {
+    color: #FF900E;
+}
+.team-description {
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+/* Team Section Ended */
