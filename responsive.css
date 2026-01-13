@@ -24,4 +24,13 @@
     .team-content {
         text-align: center;
     }
+    .navbar {
+        padding: 40px 30px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 50px;
+    }
 }
