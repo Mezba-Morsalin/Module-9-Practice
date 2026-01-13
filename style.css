@@ -165,3 +165,33 @@
     margin-bottom: 10px;
 }
 /* Tact Section Ended */
+/* Sponsor Section Started */
+.sponsor-section {
+    margin-top: 130px;
+}
+.sponsor-heading {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.sponsor-description {
+    font-size: 1rem;
+    line-height: 26px;
+}
+.sponsor-info {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsor-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    margin-top: 60px;
+    padding: 0 10px;
+}
+.sponsor-image img {
+    filter: grayscale(100%);
+    width: 100%;
+}
+/* Sponsor Section Ended */
