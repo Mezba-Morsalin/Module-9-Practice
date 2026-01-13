@@ -32,6 +32,15 @@
     .sponsor-image img {
         width: 50%;
     }
+    .feature-section {
+    flex-direction: column;
+    }
+    .position {
+        margin-left: 80px;
+    }
+    .feature-content {
+        padding:0 10px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .team-section {
@@ -58,10 +67,22 @@
         gap: 70px;
         padding: 20px;
     }
+    .feature-section {
+    flex-direction: column;
+    }
+    .position {
+        margin-left: 350px;
+    }
+    .feature-content {
+        padding:0 30px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         gap: 50px;
+    }
+    .position {
+        margin-left: 220px;
     }
 }
