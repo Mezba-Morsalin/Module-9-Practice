@@ -195,3 +195,15 @@
     width: 100%;
 }
 /* Sponsor Section Ended */
+/* Main Section Ended */
+/* Footer Section Started */
+.footer-section {
+    margin-top: 130px;
+    border-radius: 8px;
+}
+.footer-description {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 40px 0;
+}
+/* Footer Section Ended */
